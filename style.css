@@ -1,10 +1,13 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
   }
-.dream{
-  display:flex;
-  margin:0;
-  padding:0;
+section{
+  display: flex;
+  margin-bottom:150px;
+}
+div{
+  
 }
 .container{
   width:500px;
@@ -15,14 +18,13 @@ body{
   padding-top: 0%;
 }
 .top-article{
-  font-size: 10px;
   margin-bottom: 60px;
   color:antiquewhite;
   text-align: center;
   line-height: 20px;
 }
-p{
-  font-size: 20px;
+.white-color{
+  font-size: 15px;
   color:antiquewhite;
   margin: 0;
 }
@@ -33,10 +35,8 @@ p{
   padding-bottom: 20px 40px;
   color:white;
   font-weight: 700;
-  font-size: 15px;
 }
 .today{
- font-size: 10px;
  color:black;
  border-width: 10px;
  padding-left: 5px;
@@ -45,5 +45,8 @@ p{
  padding-bottom: 20px;
  text-align: center;
 }
-
+.half-width{
+  width:50%;
+  padding:5px 10px;
+}
 
